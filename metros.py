@@ -1,6 +1,6 @@
-metro= float(input('Digite aqui a medida em metro:'))
-print(f'O valor de {metro}m convertido em centímetro é {metro*100:.2f}')
-print(f'O valor de {metro}m convertido em milímetro é {metro*1000:.2f}')
-print(f'O valor de {metro}m convertido em kilometro é {metro/1000:.2f}')
+metros= float(input('Digite aqui um valor em metros:'))
+print(f'O valor de metros {metros} convertido em centimetros é {metros*100}')
+print(f'O valor de metros {metros} convertido em milimitros é {metros*1000}')
+print(f'O valor de metros {metros} convertido em km é de {metros/1000}')
 
 # escreva um programa, que leia um valor em metros e o exiba convertido em centímetros e mílimetros e km.
